@@ -1,0 +1,194 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: helvetica;
+    margin:0;
+}
+a{
+    text-decoration:none;
+    color:black;
+}
+
+
+#progress-bar{
+    transition: width 0.15s linear;
+    height:10px;
+    width:0%;
+    background-color:black;
+
+}
+
+
+header{
+    height:130px;
+    position:fixed;
+    top:0px;
+    width:100%;
+    z-index:1;
+    background-color:white;
+    opacity:90%;
+}
+.header{
+    width:100%;
+    height:100%;
+    position:absolute;
+    padding-top:50px;   
+}
+
+.sections{
+    float:left;
+    height:100%;
+    width:70%;
+    padding-left:50px;
+}
+.option{
+    font-size:25px;
+    padding:20px;
+}
+
+.option:hover{
+    background-color: rgba(252, 3, 90, 0.971);
+    opacity:100%;
+    padding:52px 48px 39px 48px;
+    font-size:35px;
+    color:white;
+    transition-duration:0.5s;
+}
+.contact{
+    float:right;
+    right:0px;
+    height:100%;
+    width:30%;
+}
+.contact form{
+    position:absolute;
+    right:90px;
+}
+input{
+    height:30px;
+    padding:5px;
+    border-radius:4px;
+    border:2px solid rgba(134, 141, 134, 0.79);
+    
+}
+input:focus{
+    border:1px solid grey;
+    box-shadow: 4px 4px 8px grey;
+
+}
+
+
+
+
+
+.body{
+    width:100%;
+}
+.body-head{
+    height:150px;
+    position:absolute;
+    top:150px;
+    padding-left:70px;
+}
+.body-head p{
+    font-family: serif;
+    font-size:100px;
+}
+
+
+
+.main-body{
+    width:100%;
+    height:1800px;
+    float:left;
+    position:relative;
+    top:300px;
+}
+
+
+.content{
+    float:left;
+}
+
+#left-section{
+    height:100%;
+    width:25%;
+}
+#left-section p{
+    padding-top:220px;
+    margin-left:80px;
+    font-size:15px;
+    width:150px;
+}
+#mid-section{
+    border:0.5px;
+    height:100%;
+    width:50%;
+    padding:10px 50px;
+}
+h2{
+    margin-top:100px;
+    font-size:55px;
+}
+.content p{
+    font-size:40px;
+    color:rgb(56, 55, 55);
+}
+
+span{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size:50px;
+    color:black;
+}
+.team{
+    color:black;
+}
+#right-section{
+    width:25%;
+    height:100%;
+}
+
+
+
+footer{
+    position:relative;
+    top:2000px;
+    width:100%;
+    height:150px;
+}
+footer p{
+    margin:0;
+    padding-top:70px;
+    width:100%;
+    height:100%;
+    position:absolute;
+    text-align:center;
+}
+
+
+
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  /* Track */
+  ::-webkit-scrollbar-track {
+    border-radius: 6px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgba(139, 137, 137, 0.926); 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #777575cb; 
+  }
