@@ -8,5 +8,9 @@ window.onscroll = function(){
     diff=containerHeight+containerPos.top;
     progressPercentage=diff/containerHeight*100;
     cssWidth=Math.floor(100-progressPercentage);
+    
     highlight.style.width=cssWidth+"%";
 }
+
+
+
